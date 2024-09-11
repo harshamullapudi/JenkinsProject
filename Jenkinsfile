@@ -16,7 +16,8 @@ pipeline{
 
 		stage('Test'){
 			steps{
-				sh 'python3 myfile.py'
+				//sh 'python3 myfile.py'
+				sh 'ls -a'
 				echo 'Script is working fine'
 			}
 		}
