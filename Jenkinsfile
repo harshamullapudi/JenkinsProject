@@ -16,8 +16,8 @@ pipeline{
 
 		stage('Test'){
 			steps{
-				bat 'C:\Users\Harsha\AppData\Local\Microsoft\WindowsApps\python.exe  myfile.py'
-				bat 'C:\Users\Harsha\AppData\Local\Microsoft\WindowsApps\python.exe  --version'
+				bat 'python3 myfile.py'
+				bat 'python3 --version'
 				echo 'Script is working fine'
 			}
 		}
