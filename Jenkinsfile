@@ -17,7 +17,7 @@ pipeline{
 		stage('Test'){
 			steps{
 				//sh 'python3 $WORKSPACE/myfile.py'
-				sh 'python3 --version'
+				sh 'python --version'
 				echo 'Script is working fine'
 			}
 		}
