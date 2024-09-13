@@ -1,6 +1,5 @@
 pipeline{
 	agent any
-
 	stages{
 	    stage('Checkout'){
 	       steps{
@@ -16,8 +15,7 @@ pipeline{
 
 		stage('Test'){
 			steps{
-				bat 'python3 myfile.py'
-				bat 'python3 --version'
+			    bat 'C:\\Users\\Harsha\\AppData\\Local\\Programs\\Python\\Python312\\python.exe myfile.py'
 				echo 'Script is working fine'
 			}
 		}
